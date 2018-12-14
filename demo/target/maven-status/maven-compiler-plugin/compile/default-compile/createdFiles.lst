@@ -1,0 +1,7 @@
+com\example\controller\HelloWorldController.class
+com\example\app\DemoApplication.class
+com\example\bean\StudentDtls.class
+com\example\aspects\CustomExceptionHandler.class
+com\example\repository\StudentRepositroy.class
+com\example\bean\ResponseMsg.class
+com\example\modal\StudentData.class

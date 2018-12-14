@@ -1,0 +1,21 @@
+server:
+  port: 8888
+management:
+  security:
+    enabled: false
+security:
+  basic:
+    enabled: false
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Sswaraj01/spring-pcf-poc.git
+          username: Sswaraj01
+          password: <Swaraj@20>
+          search-paths: ConfigServer/config
+        encrypt:
+          enabled: false
